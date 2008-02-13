@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name:                Lyrics-Fetcher-LeosLyrics
+version:             0.01
+abstract:            Get song lyrics from leoslyrics.com
+license:             ~
+author:              
+    - Edward Allen <ealleniii@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    LWP::Simple:                   1.4
+    URI::Escape:                   3.28
+    XML::Simple:                   0.1
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3

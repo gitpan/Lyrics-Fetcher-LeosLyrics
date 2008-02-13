@@ -1,0 +1,9 @@
+Changes
+lib/Lyrics/Fetcher/LeosLyrics.pm
+Makefile.PL
+MANIFEST			This list of files
+README
+t/1-basic.t
+t/2-pod.t
+t/3-pod-coverage.t
+META.yml                                 Module meta-data (added by MakeMaker)

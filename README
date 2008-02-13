@@ -1,0 +1,48 @@
+Lyrics-Fetcher-LeosLyrics README
+====================================
+
+Lyrics::Fetcher::LeosLyrics, as the name suggests, fetches lyrics
+from www.leoslyrics.com using it's unpublished XML interface. 
+
+It is intended to be used as a fetcher by Lyrics::Fetcher, but
+can be used on its own if you desire.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+ XML::Simple;
+ LWP::Simple;
+ URI::Escape
+
+
+Calling Lyrics::Fetcher::LeosLyrics via Lyrics::Fetcher->fetch() is
+recommended, but you can call Lyrics::Fetcher::LeosLyrics->fetch() directly
+if you want to do so.
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 by Edward Allen III
+
+Lyrics::Fetcher is Copyright (C) 2007 by David Precious
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.7 or,
+at your option, any later version of Perl 5 you may have available.
+
+
+AUTHOR
+
+Written by Edward Allen <ealleniii _at_ cpan.org>
+
+Portions (such as POD and the test scripts) were lifted directly from Lyrics::Fetcher::LyricWiki, which
+is Copyright (C) 2007 by David Precious.
