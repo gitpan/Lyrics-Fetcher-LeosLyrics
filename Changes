@@ -1,4 +1,8 @@
 Revision history for Perl extension Lyrics::Fetcher::LeosLyrics
+
+0.02  2008/02/20
+	- Fixed typeo in POD
+	- Kwalitee Improvments
       
 0.01  2008/02/10
 	- original version

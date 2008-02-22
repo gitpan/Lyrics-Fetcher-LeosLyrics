@@ -1,5 +1,5 @@
 package Lyrics::Fetcher::LeosLyrics;
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Copyright (c) 2007 Edward Allen III. Some rights reserved.
 #
@@ -23,7 +23,7 @@ Lyrics::Fetcher::LeosLyrics - Get song lyrics from leoslyrics.com
   # or, if you want to use this module directly without Lyrics::Fetcher's
   # involvement:
   use Lyrics::Fetcher::LeosLyrics;
-  print Lyrics::Fetcher::AstraWeb->fetch('<artist>', '<song>');
+  print Lyrics::Fetcher::LeosLyrics->fetch('<artist>', '<song>');
 
 =head1 DESCRIPTION
 
@@ -40,7 +40,7 @@ use Encode;
 use XML::Simple;
 use LWP::Simple;
 
-sub url_escape {
+sub _url_escape {
     my $in = shift;
     $in =~ s/ /+/g;
     return uri_escape_utf8( encode( "utf8", $in ), "^A-Za-z0-9\-_.!\/?=\+" );

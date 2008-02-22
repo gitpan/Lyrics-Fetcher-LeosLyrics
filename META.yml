@@ -1,8 +1,8 @@
 --- #YAML:1.0
 name:                Lyrics-Fetcher-LeosLyrics
-version:             0.01
+version:             0.02
 abstract:            Get song lyrics from leoslyrics.com
-license:             ~
+license:             perl
 author:              
     - Edward Allen <ealleniii@cpan.org>
 generated_by:        ExtUtils::MakeMaker version 6.42
